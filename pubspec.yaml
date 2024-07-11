@@ -1,0 +1,35 @@
+name: flutter_node_auth
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http:
+  filter_list:
+  carousel_slider:
+  redux:
+  flutter_redux:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/parlour/Esha_Khamo/1.jpg
+    - assets/images/parlour/Esha_Khamo/2.jpg
+    - assets/images/parlour/Esha_Khamo/3.jpg
+    - assets/images/parlour/Esha_Khamo/4.jpg
